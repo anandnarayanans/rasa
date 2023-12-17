@@ -1,0 +1,71 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - مرحبا
+    - سلام عليكم
+    - عايف
+    - تعطيك الصحة
+    - السلام
+    - كيفك
+    - أنت موجود؟
+    - تحيات
+    - تحية
+    - تحية طيبة
+    - شو أخبارك؟
+    - شكلك رائع
+    - كيف حالك اليوم؟
+    - كيف الحال؟
+    - كيف شعورك؟
+    - مرحبا أيها المستشار
+    - مرحبا للجميع
+    - مساء الخير
+    - مرحبا، أنا في حالجة إلى مساعدة
+    - يسرني لقاؤك
+    - من هذا؟
+    - مرحبا، أنا في حالجة إلى مساعدة
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: askdata
+  examples: |
+    - أرني البيانات
+    - أعطني البيانات
+    - أعطني
+    - أرِنِي
+    - بيانات
+    - show me data
+    - data give
+    - data
+    - show me
+    - give me
+    - give me data
+
+
+- intent: employeeid
+  examples: |
+    - give me the employee data for [1](employee_id) 
+    - data for [1](employee_id) 
+    - [1](employee_id) 
+    - give me the employee data for [2](employee_id) 
+    - data for [2](employee_id) 
+    - [2](employee_id)  - give me the employee data for [3](employee_id) 
+    - data for [3](employee_id) 
+    - [3](employee_id) 
+
